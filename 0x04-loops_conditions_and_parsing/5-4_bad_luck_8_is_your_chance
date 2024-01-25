@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-count=1
-while [ $count -lt 11 ]
+COUNTER=1
+while [ $COUNTER -lt 11 ]
 do
-    if [ $count = 4 ]
+    if [ $COUNTER = 4 ]
     then
         echo "bad luck"
-    elif [ $count = 8 ]
+    elif [ $COUNTER = 8 ]
     then
         echo "good luck"
     else
         echo "Best School"
     fi
-    let count+=1
+    let COUNTER+=1
 done
