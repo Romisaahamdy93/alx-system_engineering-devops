@@ -1,6 +1,5 @@
-# Define the package resource for Flask
-
-package { 'Flask':
+# Install Flask package
+package { 'flask':
   ensure   => '2.1.0',
   provider => 'pip3',
 }
